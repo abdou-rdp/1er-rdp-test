@@ -10,7 +10,7 @@ jobs:
         run: |
           Invoke-WebRequest https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-stable-windows-amd64.zip -OutFile ngrok.zip
           Expand-Archive ngrok.zip
-          ./ngrok.exe authtoken .github/workflows/rdp.yml
+          ./ngrok.exe authtoken 2zqOBvSupFpiW2SCf3IgxHbwykJ_7zotr39k1VLjgMbcYZGtv
 
       - name: Enable RDP
         run: |
